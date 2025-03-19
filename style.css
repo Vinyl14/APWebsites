@@ -416,6 +416,21 @@ header {
     height: auto;
 }
 
+.pdf-container {
+    display: flex; /* Enables side-by-side layout */
+    justify-content: space-between; /* Adds spacing between PDFs */
+    width: 100vw;
+    height: 100vh;
+}
+.pdf-container embed {
+    width: 50%; /* Adjust width to fit side by side */
+    height: 100%;
+}
+
+.DEPDF{
+    margin-left: 25%;
+}
+
 footer {
     text-align: center;
     padding: 20px;
